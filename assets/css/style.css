@@ -1,0 +1,56 @@
+.main-page {
+  width: 50%;
+  margin: auto;
+}
+header {
+  text-align: center;
+}
+header img {
+  width: 250px;
+}
+header p {
+  background-color: #fdfbf1;
+  color: rgba(2, 65, 46, 0.678);
+  border-top: 2px solid #ffd877;
+  padding: 15px;
+  font-style: italic;
+}
+main h1 {
+  text-align: center;
+}
+main > div > p {
+  margin-bottom: 5px;
+}
+/* main div:nth-child() {
+  border-left: 2px solid #ffd877;
+  color: blue;
+} */
+main #featrued {
+  padding-left: 15px;
+  border-left: 2px solid #ffd877;
+}
+#featrued p {
+  color: #b5460f;
+}
+.line {
+  border-top: 2px solid #c4f3f2;
+}
+main li {
+  margin: 10px 0;
+}
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+#video-container {
+  text-align: center;
+  margin-top: 20px;
+}
+#video-container p {
+  font-size: 14px;
+  opacity: 75%;
+  font-style: italic;
+}
+iframe {
+  border-radius: 6px;
+  box-shadow: 4px 4px 20px lightblue;
+}
